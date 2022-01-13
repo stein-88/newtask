@@ -1,0 +1,24 @@
+{
+    "name": "tarefa",
+    "version": "1.0.0",
+    "description": "Tarefa mais trabalhada",
+    "main": "script.js",
+    "author": "WandersonSantos",
+    "license": "MIT",
+    "scripts": {
+        "clean": "gulp clean",
+        "watch": "gulp watch",
+        "build": "gulp",
+        "escrita": "gulp scripts"
+    },
+    "dependencies": {
+        "@babel/core": "^7.16.5",
+        "@babel/preset-env": "^7.16.5",
+        "@babel/register": "^7.16.5",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-uglify": "^3.0.2"
+    }
+}
